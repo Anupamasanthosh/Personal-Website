@@ -1,3 +1,5 @@
+
+
 var nameError = document.getElementById('name-error');
 var emailError = document.getElementById('email-error');
 var subjectError = document.getElementById('subject-error');
@@ -57,9 +59,5 @@ function validateMessage() {
     messageError.innerHTML='Message is valid';
     messageError.style.color='green'
     return true;    
-    
-}
-function contactSubmit()
-{
     
 }
